@@ -1,7 +1,7 @@
 ---
 title: JS25 新兴的API
 toc: true
-date: 2018-06-12 20:31:01
+date: 2018-08-21 18:15:07
 ---
 新兴的API
 
@@ -1297,7 +1297,7 @@ var stack = [1,
 
 allowed = ["push", "pop", "length"]；
 
-return Proxy.create{{
+return Proxy.create{ {
 
 get: function(receiver, name){；
 

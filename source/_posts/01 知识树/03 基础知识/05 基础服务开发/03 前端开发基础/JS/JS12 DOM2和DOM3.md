@@ -1,7 +1,7 @@
 ---
 title: JS12 DOM2和DOM3
 toc: true
-date: 2018-06-12 20:24:12
+date: 2018-08-21 18:16:23
 ---
 第.12章
 
@@ -353,7 +353,7 @@ DOM3级还针对为DOM节点添加额外数据引人了新方法。其中，setU
 
 定给节点，它接受3个参数：要设置的键、实际的数据(可以是任何数据类型)和处理函数。以下代码 可以将数据指定给一个节点。
 
-document.body.setUserData{"name", ”Nicholas", function(》{}};
+document.body.setUserData{"name", ”Nicholas", function(》{} };
 
 然后，使用getUserDataU并传人相同的键，就可以取得该数据，如下所示：
 

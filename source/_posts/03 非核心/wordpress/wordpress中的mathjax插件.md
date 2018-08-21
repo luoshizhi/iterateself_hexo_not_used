@@ -1,7 +1,7 @@
 ---
 title: wordpress中的mathjax插件
 toc: true
-date: 2018-07-27 20:34:40
+date: 2018-08-21 18:16:22
 ---
 
 # 缘由：
@@ -69,7 +69,7 @@ f_k = f(x_k)
 
 
 
-\[aaa\underset{cccc}{\underbrace{mmmm}}bbbb\]
+\[aaa\underset{cccc}{\underbrace{mmmm} }bbbb\]
 
 
 
@@ -91,7 +91,7 @@ f_k = f(x_k)
 
 
 
-\[\begin{align} \sqrt{37} & = \sqrt{ \frac{73^2-1}{12^2}} \\ & = \sqrt{ \frac{73^2}{12^2} \cdot \frac{73^2-1}{73^2}} \\ & \approx \frac{73}{12} \left(1 - \frac{1}{2 \cdot73^2} \right) \end{align}\]
+\[\begin{align} \sqrt{37} & = \sqrt{ \frac{73^2-1}{12^2} } \\ & = \sqrt{ \frac{73^2}{12^2} \cdot \frac{73^2-1}{73^2} } \\ & \approx \frac{73}{12} \left(1 - \frac{1}{2 \cdot73^2} \right) \end{align}\]
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: 03 网络相关的API交互
 toc: true
-date: 2018-07-08 13:31:18
+date: 2018-08-21 18:16:23
 ---
 
 # 6.3 Interacting with Web APIs (网络相关的API交互)
@@ -103,7 +103,7 @@ data[0]
       'starred_url': 'https://api.github.com/users/rspadim/starred{/owner}{/repo}',
       'subscriptions_url': 'https://api.github.com/users/rspadim/subscriptions',
       'type': 'User',
-      'url': 'https://api.github.com/users/rspadim'}}
+      'url': 'https://api.github.com/users/rspadim'} }
 
 
 

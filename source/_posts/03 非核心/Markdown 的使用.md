@@ -1,7 +1,7 @@
 ---
 title: Markdown 的使用
 toc: true
-date: 2018-08-03 14:55:12
+date: 2018-08-21 18:16:22
 ---
 # Welcome to Leanote! 欢迎来到Leanote!
 
@@ -265,11 +265,11 @@ $$
 \tag{2}
 $$
 
-$$c'_i =\begin{cases} \begin{array}{lcl}  \cfrac{c_i}{b_i}&& ; i = 1 \\ \cfrac{c_i}{b_i - a_i c'_{i - 1}}  & & ; i = 2, 3, \dots, n-1 \\\end{array}\end{cases}\tag{3}$$
+$$c'_i =\begin{cases} \begin{array}{lcl}  \cfrac{c_i}{b_i}&& ; i = 1 \\ \cfrac{c_i}{b_i - a_i c'_{i - 1} }  & & ; i = 2, 3, \dots, n-1 \\\end{array}\end{cases}\tag{3}$$
 $$
 
 $$
-$$f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 } \tag{1}$$
+$$f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi} } e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 } \tag{1}$$
 
 where $\mu$ is the mean value, $\sigma^2$ is standard deviation.
 

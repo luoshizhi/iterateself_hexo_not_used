@@ -1,7 +1,7 @@
 ---
 title: RL 资格痕迹(Eligibility Traces)
 toc: true
-date: 2018-06-11 08:14:53
+date: 2018-08-21 18:16:23
 ---
 ---
 author: evo
@@ -206,7 +206,7 @@ Repeat (for each episode):
 
   For \(t = 0, 1, \cdots, T - 1\)  
 
-   \(\theta \gets \theta + \alpha [\color{Red}{G_t^{\lambda}} -\hat{v}(S_t, \theta)] \nabla \hat{v}(S_t, \theta)\)
+   \(\theta \gets \theta + \alpha [\color{Red}{G_t^{\lambda} } -\hat{v}(S_t, \theta)] \nabla \hat{v}(S_t, \theta)\)
 > 
 > 
 </blockquote>

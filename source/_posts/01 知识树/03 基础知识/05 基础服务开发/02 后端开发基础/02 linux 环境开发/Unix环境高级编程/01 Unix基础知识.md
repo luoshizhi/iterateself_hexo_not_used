@@ -1,7 +1,7 @@
 ---
 title: 01 Unix基础知识
 toc: true
-date: 2018-06-26 18:37:28
+date: 2018-08-21 18:15:06
 ---
 ##### 1.1弓I言
 
@@ -127,7 +127,7 @@ if (argc != 2)
 
 err_quit("usage: Is directory_name");
 
-if {{dp = opendir(argv[1])) == NULL)
+if { {dp = opendir(argv[1])) == NULL)
 
 err_sys("can't open %s", argv[1]);
 
@@ -321,7 +321,7 @@ main(void)
 
 int    c;
 
-while {{c = getc(stdin))    != EOF)
+while { {c = getc(stdin))    != EOF)
 
 if (putc(c, stdout) == EOF)
 

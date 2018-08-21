@@ -159,7 +159,7 @@ echo "My name is ${USERNAME}. People usually call me ${USERNAME:0:6}."
 
 `My name is StevenSLXie. People usually call me Steven.`
 
-这时候，`${USERNAME:0:6}`的作用是取字符串的一部分。第一个数字0是指截取的起始部分，则第二个数字6则是指截取的长度。再比如`${#USERNAME}`则是获取字符串的长度。更多的字符串用法，我们将在后面的正则表达式哪一节看到。
+这时候，{% raw %}`${USERNAME:0:6}`{% endraw %}的作用是取字符串的一部分。第一个数字0是指截取的起始部分，则第二个数字6则是指截取的长度。再比如{% raw %}`${#USERNAME}`{% endraw %}则是获取字符串的长度。更多的字符串用法，我们将在后面的正则表达式哪一节看到。
 
 <h4>3. 数组</h4>
 数组可以这样简单粗暴地定义：
@@ -186,9 +186,17 @@ echo ${NAMES[2]}
 echo ${NAMES[*]}
 ```
 
-`${NAMES[*]}`或者`${NAMES[@]}`表示访问所有元素。而`${#NAMES[*]}`则返回数组长度。请注意它和`${#NAMES}`的区别，后者是返回`NAMES`里面第一个元素的长度，相当于`${#NAMES[0]}`。
+`${NAMES[*]}`或者`${NAMES[@]}`表示访问所有元素。而{% raw %}
+`${#NAMES[*]}`{% endraw %}
+则返回数组长度。请注意它和{% raw %}
+`${#NAMES}`{% endraw %}
+的区别，后者是返回`NAMES`里面第一个元素的长度，相当于{% raw %}
+`${#NAMES[0]}`{% endraw %}
+。
 
 一个数组声明并定义后，我们仍可以二次定义它，比如下面的代码是在原来的数组基础上再添加一个人名。
+
+{% raw %}
 
 ```
 declare -a NAMES=('Steven' 'Peter' 'David')
@@ -196,6 +204,8 @@ echo ${#NAMES[*]}
 NAMES=("${NAMES[*]}" 'Nancy')
 echo ${NAMES[*]}
 ```
+{% endraw %}
+
 命令行将返回：
 ```
 3
@@ -378,7 +388,7 @@ for I in $A
     do
         echo $I
     done
-    
+
 for I in "$A"
     do
         echo $I
@@ -851,10 +861,3 @@ Happy Coding!
 <li>在可能的情况下请保持文本显示的美观。比如，请不要直接一键复制到博客之类，因为代码的显示效果可能非常糟糕;</li>
 <li>请将这个转载声明包含进来；</li>
 </ul>
-
-
-
-
-
-
-
